@@ -1,7 +1,7 @@
 public class Kisi {
-    private String adSoyad;
-    private String kimlikNo;
-    private int yas;
+    public String adSoyad;
+    public String kimlikNo;
+    public int yas;
 
     public String getAdSoyad() {
         return adSoyad;

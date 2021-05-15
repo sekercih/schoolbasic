@@ -3,6 +3,17 @@ public class Ogrenci extends Kisi {
     private String numara;
     private String sinif;
 
+    @Override
+    public String toString() {
+        return "Ogrenci{" +
+                "adSoyad='" + adSoyad + '\'' +
+                ", kimlikNo='" + kimlikNo + '\'' +
+                ", yas=" + yas +
+                ", numara='" + numara + '\'' +
+                ", sinif='" + sinif + '\'' +
+                '}';
+    }
+
     public String getNumara() {
         return numara;
     }
